@@ -1,16 +1,16 @@
-# first_sorted_list_with_unittest 🐍
-Neste repositório você encontrará uma de minhas primeiras lista ordenadas feitas juntamente com testes unitários em py
+# Sorted_methods_in_python 🐍
+Neste repositório você encontrará algoritimos de ordenação em Python, utilizando juntamente, testes unitários
 
 ### Detalhe:
-O repositório contem duas versões exemplificativas, 
+O repositório contem todos os tipos de algoritimos de ordenação ccada um com duas versões exemplificativas, separados por pastas  
 * Utilizando o método sort do python
-* Utilizando um algoritimo de ordenação - bubble sort (sem o sort metodo nativo do py)
+* Utilizando um algoritimo de ordenação escolhido (sem o sort metodo nativo do py)
 
 ---
-In this rpositoryyou find one of my first sorted list and unity test made with py
+In this repository you will find sorting algorithms in Python, with unit tests .
 
 
 ### Detail:
 The repository contains two example versions,
 * Using python's sort method
-* Using a sorting algorithm - bubble sort (without py's native sorting method)
+* Using a sorting algorithm (without py's native sorting method)
