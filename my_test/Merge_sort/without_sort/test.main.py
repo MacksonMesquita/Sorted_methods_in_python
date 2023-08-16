@@ -1,14 +1,14 @@
 #without sort
 
 import unittest
-from main import selectionsort
+from main import mergesort
 
 class TestNumbers(unittest.TestCase):
 
     def test_is_working(self):
-        esperado = [1, 6, 8, 9, 11, 20] 
-        arr = [9, 20, 1, 6, 8, 11]
-        resultado = selectionsort(arr)
+        esperado = [1, 2, 3, 5, 6, 7, 9, 11, 20, 54] 
+        arr = [1, 5, 3, 7, 9, 6, 2, 20, 54, 11] 
+        resultado = mergesort(arr)
         self.assertEquals(resultado, esperado)
 
 

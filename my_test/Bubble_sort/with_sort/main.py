@@ -1,14 +1,7 @@
 #with sort
 
-from pprint import pprint
+def bubblesort(numbers):
+ numbers = [5, 3, 2, 1, 9, 7, 10, 34, 67, 99, 88, 77, 66, 89, 100, 20, 21, 69, 12, 4]
 
-produtos = [
-    {"produtos": 'laranja', "id": 5 },
-    {"produtos": 'berinjela', "id": 3 },
-    {"produtos": 'pitaia', "id": 1 },
-    {"produtos": 'tomate', "id": 4  },
-    {"produtos": 'carambola', "id": 2 },
-]
-
-produtos.sort(key=lambda elements:elements["id"])
-pprint(produtos)
+ numbers.sort(key=lambda elements:elements)
+ return numbers

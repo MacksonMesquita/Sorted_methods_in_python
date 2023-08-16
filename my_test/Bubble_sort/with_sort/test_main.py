@@ -1,20 +1,16 @@
 #with sort
 
 import unittest
-from main import produtos 
+from main import bubblesort 
 
 
-class TestProdutos2(unittest.TestCase):    
+class TestNumbers(unittest.TestCase):    
     
     def test_is_working(self):
-        resultado2 = [
-            {"produtos": 'pitaia', "id": 1 },
-            {"produtos": 'carambola', "id": 2 },
-            {"produtos": 'berinjela', "id": 3 },
-            {"produtos": 'tomate', "id": 4 },
-            {"produtos": 'laranja', "id": 5 },    
-        ]
-        self.assertEqual(produtos, resultado2) 
+        esperado = [1, 2, 3, 4, 5, 7, 9, 10, 12, 20, 21, 34, 66, 67, 69, 77, 88, 89, 99, 100]
+        arr = [5, 3, 2, 1, 9, 7, 10, 34, 67, 99, 88, 77, 66, 89, 100, 20, 21, 69, 12, 4]
+        resultado = bubblesort(arr)
+        self.assertEquals(resultado, esperado)
 
 
 if __name__ == '__main__':
