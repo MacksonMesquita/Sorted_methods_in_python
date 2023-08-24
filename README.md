@@ -1,4 +1,4 @@
-# Sorted methods in python 🐍
+# Sorted methods - ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 Neste repositório você encontrará algoritimos de ordenação em Python, utilizando juntamente, testes unitários
 
 ### Detalhe:
@@ -28,6 +28,10 @@ In this repository you will find sorting algorithms in Python, with unit tests .
 The repository contains two example versions,
 * Using python's sort method
 * Using a sorting algorithm (without py's native sorting method)
+
+<br />
+
+***Warning:*** *Some contents was written in portuguese(Brazil), and do not support for other languages* 
 
 <br />
 
