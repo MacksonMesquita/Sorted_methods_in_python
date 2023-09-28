@@ -2,9 +2,26 @@
 Neste repositório você encontrará algoritimos de ordenação em Python, utilizando juntamente, testes unitários
 
 ### Detalhe:
-O repositório contem todos os tipos de algoritimos de ordenação ccada um com duas versões exemplificativas, separados por pastas  
+O repositório contem todos os tipos de algoritimos de ordenação ccada um com duas versões exemplificativas 
 * Utilizando o método sort do python
 * Utilizando um algoritimo de ordenação escolhido (sem o sort metodo nativo do py)
+
+<br />
+
+### Estrutura das pastas 📁 : 
+
+#### 
+    Pasta Root: My test { 
+    
+    Dentro da pasta root, há por sua vez pastas com nome do algoritimo de sort utilizado {
+    
+       Dentro de cada uma, há mais duas subpasta, a qual divide os algoritimos em questão, de acordo com a utilização do sort ou sem sua utilização (with sort ou without sort) {
+       
+           Dentro de cada subpasta temos dois arquivos, os quais são respectivamente os arquivos de teste e implementação do algoritimo
+           
+           }
+        }
+    }
 
 <br />
 
@@ -28,6 +45,23 @@ In this repository you will find sorting algorithms in Python, with unit tests .
 The repository contains two example versions,
 * Using python's sort method
 * Using a sorting algorithm (without py's native sorting method)
+  
+<br />
+
+### Folders structures 📁 :
+
+####
+    Root folder: My test {
+    
+    Inside the root folder, there are folders named after the sort algorithm used {
+    
+       Within each one, there are two more subfolders, which divide the algorithms in question, according to whether sort is used or not (with sort or without sort) {
+       
+           Within each subfolder we have two files, which are respectively the test and implementation files of the algorithm
+           
+           }
+        }
+    }
 
 <br />
 
