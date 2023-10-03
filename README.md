@@ -13,9 +13,9 @@ O repositório contem todos os tipos de algoritimos de ordenação ccada um com 
 #### 
     Pasta Root: My test { 
     
-    Dentro da pasta root, há por sua vez pastas com nome do algoritimo de sort utilizado {
+    Dentro da pasta root, há pastas com nomes dos algoritimos de sort utilizado {
     
-       Dentro de cada uma, há mais duas subpasta, a qual divide os algoritimos em questão, de acordo com a utilização do sort ou sem sua utilização (with sort ou without sort) {
+       Ao selecionar sua opção, dentro de cada uma, há mais duas subpasta, a qual divide os algoritimos em questão de acordo com a utilização do sort ou sem sua utilização (with sort ou without sort) {
        
            Dentro de cada subpasta temos dois arquivos, os quais são respectivamente os arquivos de teste e implementação do algoritimo
            
