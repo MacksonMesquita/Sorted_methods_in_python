@@ -1,7 +1,38 @@
 # Sorted methods - ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 Neste repositório você encontrará algoritimos de ordenação em Python, utilizando juntamente, testes unitários
 
-### Detalhe:
+
+### Unittest
+O unittest é um framework muito utilizado para testes de implementações em python (principalmente).
+<br />
+Sua principal característica é gerir com segurança e ponticidade os testes e seus respectivos resultados a serem esperados. 
+
+#### Sua estrutura base segue o padrão: 
+     import unittest
+
+    class TestStringMethods(unittest.TestCase):
+
+     def test_upper(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+     def test_isupper(self):
+        self.assertTrue('FOO'.isupper())
+        self.assertFalse('Foo'.isupper())
+
+    if __name__ == '__main__':
+    unittest.main()
+
+
+Onde cada def realiza um teste, ordenado por uma função com a extensão *unittest.TestCase* de testes de caixa!
+<br />
+Para saber mais sobre o unittest framework, acesse a doc:
+
+>  https://docs.python.org/3/library/unittest.html
+
+
+<br />
+
+### Detalhes:
 O repositório contem todos os tipos de algoritimos de ordenação ccada um com duas versões exemplificativas 
 * Utilizando o método sort do python
 * Utilizando um algoritimo de ordenação escolhido (sem o sort metodo nativo do py)
@@ -41,7 +72,36 @@ O repositório contem todos os tipos de algoritimos de ordenação ccada um com 
 
 In this repository you will find sorting algorithms in Python, with unit tests .
 
-### Detail:
+### Unittest
+Unittest is a framework widely used for testing Python implementations (mainly).
+<br />
+Its main characteristic is to safely and promptly manage the tests and their respective expected results.
+
+#### Its base structure follows the standard:
+     import unittest
+
+    class TestStringMethods(unittest.TestCase):
+
+     def test_upper(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+     def test_isupper(self):
+        self.assertTrue('FOO'.isupper())
+        self.assertFalse('Foo'.isupper())
+
+    if __name__ == '__main__':
+    unittest.main()
+
+
+Where each def performs a test, ordered by a function with the *unittest.TestCase* extension of box tests!
+<br />
+To learn more about the unittest framework, access the doc:
+
+> https://docs.python.org/3/library/unittest.html
+
+<br />
+
+### Details:
 The repository contains two example versions,
 * Using python's sort method
 * Using a sorting algorithm (without py's native sorting method)
@@ -65,7 +125,7 @@ The repository contains two example versions,
 
 <br />
 
-***Warning:*** *Some contents was written in portuguese(Brazil), and do not support for other languages* 
+***Warning:*** *The content was written in portuguese(Brazil), and do not support for other languages - (variables and functions name)*
 
 <br />
 
