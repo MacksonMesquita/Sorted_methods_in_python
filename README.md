@@ -27,7 +27,7 @@ Onde cada def realiza um teste, ordenado por uma função com a extensão *unitt
 <br />
 Para saber mais sobre o unittest framework, acesse a doc:
 
->  https://docs.python.org/3/library/unittest.html
+> [Documentação do Unittest](https://docs.python.org/3/library/unittest.html)
 
 
 <br />
@@ -97,7 +97,7 @@ Where each def performs a test, ordered by a function with the *unittest.TestCas
 <br />
 To learn more about the unittest framework, access the doc:
 
-> https://docs.python.org/3/library/unittest.html
+> [Unittest documentation](https://docs.python.org/3/library/unittest.html)
 
 <br />
 
