@@ -46,7 +46,7 @@ O repositório contem todos os tipos de algoritimos de ordenação ccada um com 
     
     Dentro da pasta root, há pastas com nomes dos algoritimos de sort utilizado {
     
-       Ao selecionar sua opção, dentro de cada uma, há mais duas subpasta, a qual divide os algoritimos em questão de acordo com a utilização do sort ou sem sua utilização (with sort ou without sort) {
+       Ao selecionar sua opção, dentro de cada uma, há mais duas subpasta, as quais divide os algoritimos em questão de acordo com a utilização do método nativo sort ou sem sua utilização (with sort ou without sort) {
        
            Dentro de cada subpasta temos dois arquivos, os quais são respectivamente os arquivos de teste e implementação do algoritimo
            
@@ -115,7 +115,7 @@ The repository contains two example versions,
     
     Inside the root folder, there are folders named after the sort algorithm used {
     
-       Within each one, there are two more subfolders, which divide the algorithms in question, according to whether sort is used or not (with sort or without sort) {
+       Within each one, there are two more subfolders, which divides the algorithms in question, according to whether sort method is used or not (with sort or without sort) {
        
            Within each subfolder we have two files, which are respectively the test and implementation files of the algorithm
            
